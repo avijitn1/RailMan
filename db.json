@@ -1,0 +1,146 @@
+{
+  "user": [
+    {
+      "name": "avijit",
+      "email": "avijitn1@gmail.com",
+      "password": "Asder1234",
+      "radio": "user",
+      "id": 1
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "avijit",
+      "email": "avijitn1@gmail.com",
+      "password": "Asder1234",
+      "radio": "restaurant",
+      "id": 1
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Pizza Hut",
+      "location": "MysuruJN",
+      "type": "Continental, Fast food",
+      "min_order": "150"
+    },
+    {
+      "name": "Jain Food",
+      "location": "MysuruJN",
+      "type": "North Indian, Fast food",
+      "min_order": "150"
+    },
+    {
+      "name": "Swagata Restaurant",
+      "location": "MysuruJN",
+      "type": "South Indian, Fast food",
+      "min_order": "90"
+    },
+    {
+      "name": "Pizza Hut",
+      "location": "Delhi",
+      "type": "Continental, Fast food",
+      "min_order": "150"
+    },
+    {
+      "name": "Jain Food",
+      "location": "Delhi",
+      "type": "North Indian, Fast food",
+      "min_order": "150"
+    },
+    {
+      "name": "Swagata Restaurant",
+      "location": "Delhi",
+      "type": "South Indian, Fast food",
+      "min_order": "90"
+    }
+  ],
+  "menu": [
+    {
+      "restaurant_name": "Pizza Hut",
+      "item": "Pan Pizza",
+      "price": 752,
+      "picture": "C:/Users/anandi/OneDrive - Qualcomm/Documents/BITS_Full_Stack/web_development/React/RailMan/src/assets/img/plate1.png"
+    },
+    {
+      "restaurant_name": "Pizza Hut",
+      "item": "Veg Pizza",
+      "price": 450,
+      "picture": "C:/Users/anandi/OneDrive - Qualcomm/Documents/BITS_Full_Stack/web_development/React/RailMan/src/assets/img/plate1.png"
+    },
+    {
+      "restaurant_name": "Pizza Hut",
+      "item": "Paneer Pizza",
+      "price": 590,
+      "picture": "C:/Users/anandi/OneDrive - Qualcomm/Documents/BITS_Full_Stack/web_development/React/RailMan/src/assets/img/plate1.png"
+    }
+  ],
+  "orders": [
+    {
+      "user": "suman",
+      "restaurant_name": "PizzaHut",
+      "status": "active",
+      "order": [
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Pan Pizza",
+          "price": 752,
+          "count": 1
+        },
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Veg Pizza",
+          "price": 450,
+          "count": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "user": "Avijit",
+      "restaurant_name": "PizzaHut",
+      "status": "active",
+      "order": [
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Pan Pizza",
+          "price": 752,
+          "count": 1
+        },
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Veg Pizza",
+          "price": 450,
+          "count": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "user": "avijit",
+      "restaurant_name": "PizzaHut",
+      "status": "active",
+      "order": [
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Veg Pizza",
+          "price": 450,
+          "count": 1
+        },
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Paneer Pizza",
+          "price": 590,
+          "count": 2
+        },
+        {
+          "restaurant_name": "Pizza Hut",
+          "item": "Pan Pizza",
+          "price": 752,
+          "count": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
